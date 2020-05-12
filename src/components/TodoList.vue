@@ -36,25 +36,37 @@ export default {
   },
   data() {
     return {
-      todos: [
-        { description: "Do the dishes", completed: false },
-        { description: "Take out the trash", completed: false },
-        { description: "Finish doing laundry", completed: false }
-      ]
+      todos: []
     };
+  },
+  mounted() {
+    // Save todos to local storage after component is mounted.
+    const todos = JSON.parse(localStorage.getItem("vue-todos"));
+    if (todos) {
+      this.todos = todos;
+    }
   },
   methods: {
     addTodo(newTodo) {
       this.todos.push({ description: newTodo, completed: false });
+      this.saveToLocalStorage();
     },
     toggleTodo(todo) {
       todo.completed = !todo.completed;
+      this.saveToLocalStorage();
     },
     deleteTodo(deletedTodo) {
       this.todos = this.todos.filter(todo => todo !== deletedTodo);
+      this.saveToLocalStorage();
     },
     editTodo(todo, newTodoDescription) {
       todo.description = newTodoDescription;
+      this.saveToLocalStorage();
+    },
+    // save todos to local storage
+    saveToLocalStorage() {
+      const todos = JSON.stringify(this.todos);
+      localStorage.setItem("vue-todos", todos);
     }
   },
   components: { Todo, CreateTodo }

@@ -1,20 +1,13 @@
 <template>
   <div>
-    <navbar />
-    <todo-list list-name="My to-dos" />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue";
-import TodoList from "./components/TodoList.vue";
-
 export default {
   name: "App",
-  components: {
-    Navbar,
-    TodoList
-  }
+  components: {}
 };
 </script>
 

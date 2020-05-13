@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1589345223703" clover="3.2.0">
+  <project timestamp="1589345223704" name="All files">
+    <metrics statements="36" coveredstatements="35" conditionals="8" coveredconditionals="8" methods="18" coveredmethods="17" elements="62" coveredelements="60" complexity="0" loc="36" ncloc="36" packages="2" files="7" classes="7"/>
+    <package name="components">
+      <metrics statements="33" coveredstatements="32" conditionals="8" coveredconditionals="8" methods="18" coveredmethods="17"/>
+      <file name="CreateTodo.vue" path="/home/mohamedsgap/Development/give-it-a-shot/instabug-intern-frontend-task/vue-todos/src/components/CreateTodo.vue">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+      </file>
+      <file name="Navbar.vue" path="/home/mohamedsgap/Development/give-it-a-shot/instabug-intern-frontend-task/vue-todos/src/components/Navbar.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="43" count="4" type="stmt"/>
+      </file>
+      <file name="Todo.vue" path="/home/mohamedsgap/Development/give-it-a-shot/instabug-intern-frontend-task/vue-todos/src/components/Todo.vue">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="44" count="6" type="stmt"/>
+        <line num="55" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+      </file>
+      <file name="TodoList.vue" path="/home/mohamedsgap/Development/give-it-a-shot/instabug-intern-frontend-task/vue-todos/src/components/TodoList.vue">
+        <metrics statements="20" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="11" coveredmethods="10"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="47" count="10" type="stmt"/>
+        <line num="53" count="10" type="stmt"/>
+        <line num="54" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="4" type="stmt"/>
+        <line num="60" count="19" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="4" type="stmt"/>
+        <line num="63" count="17" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="86" count="4" type="stmt"/>
+        <line num="87" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="views">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="CompletedTodos.vue" path="/home/mohamedsgap/Development/give-it-a-shot/instabug-intern-frontend-task/vue-todos/src/views/CompletedTodos.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="Home.vue" path="/home/mohamedsgap/Development/give-it-a-shot/instabug-intern-frontend-task/vue-todos/src/views/Home.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+      <file name="Todos.vue" path="/home/mohamedsgap/Development/give-it-a-shot/instabug-intern-frontend-task/vue-todos/src/views/Todos.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="11" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

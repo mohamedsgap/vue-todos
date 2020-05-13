@@ -1,6 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light">
+    <router-link :to="{ name: 'Todos' }">
     <a class="navbar-brand" href="">Vue Todos</a>
+    </router-link>
     <button
       class="navbar-toggler"
       type="button"

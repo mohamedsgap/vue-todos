@@ -20,7 +20,7 @@ describe("Test Todo Component", () => {
   it("renders todo description correctly", () => {
     const toggleBtn = wrapper.find(".toggle");
     const span = toggleBtn.find("span");
-    expect(span.text()).toBe("test");
+    expect(span.text()).toBe("test...");
   });
 
   it("emits on-toggle when it's clicked", () => {

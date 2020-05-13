@@ -65,14 +65,14 @@ describe("Test TodoList Component", () => {
     );
   });
 
-  it("toggles todo ", () => {
+  it("toggles todo", () => {
     const todos = [{ description: "test", completed: false }];
 
     wrapper.setData({
       todos
     });
     expect(wrapper.vm.todos).toContainEqual(
-      expect.objectContaining({ description: "test ", completed: false })
+      expect.objectContaining({ description: "test", completed: false })
     );
 
     wrapper.vm.toggleTodo(wrapper.vm.todos[0]);

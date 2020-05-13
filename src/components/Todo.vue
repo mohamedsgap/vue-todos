@@ -7,7 +7,7 @@
       :checked="completed"
     />
     <button
-      class="btn border-0 flex-grow-1 text-left shadow-none"
+      class="btn border-0 flex-grow-1 text-left shadow-none toggle"
       :class="{ completed }"
       @click="$emit('on-toggle')"
       v-if="!isEditing"
@@ -29,7 +29,10 @@
     >
       <span class="fa fa-edit"></span>
     </button>
-    <button @click="$emit('on-delete')" class="btn btn-outline-danger border-0">
+    <button
+      @click="$emit('on-delete')"
+      class="btn btn-outline-danger border-0 delete"
+    >
       <span class="fa fa-trash"></span>
     </button>
   </li>
